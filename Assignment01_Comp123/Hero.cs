@@ -21,7 +21,7 @@ namespace Assignment01_Comp123
 
         //Public Properties+++++++++++++++++++++++++++++++++
         public string name;
-        Random rnd = new Random();
+        public Random rnd = new Random();
 
         // Constructor Method
         public Hero(string name)
@@ -59,6 +59,10 @@ namespace Assignment01_Comp123
             {
                 int damage = hitDamage();
                 Console.WriteLine("Hit damage is {0}", damage);
+            }
+            else
+            {
+                Console.WriteLine("No hit");
             }
         }
 

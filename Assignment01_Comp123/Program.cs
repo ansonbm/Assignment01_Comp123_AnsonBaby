@@ -17,9 +17,13 @@ namespace Assignment01_Comp123
     {
         static void Main(string[] args)
         {
-            Hero superMan = new Hero("superMan");//new object
-            superMan.show();// call the show method to display the abilities
-            superMan.fight();// call the fight method from the hero class
+            Hero heroMan = new Hero("hero Man");//new object
+            heroMan.show();// call the show method to display the abilities
+            heroMan.fight();// call the fight method from the hero class
+
+            SuperHero superHeroMan = new SuperHero("super Hero Man");
+            superHeroMan.showPowers();
+            superHeroMan.fight();
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();//wait for an entry to exit 
 
